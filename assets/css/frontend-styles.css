@@ -1,0 +1,59 @@
+/* Error page styling for invalid short URLs */
+.als-error-page .als-error-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.als-error-page h1 {
+    color: #d32f2f;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.als-error-page p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.als-error-page .als-error-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.als-error-page .als-error-button:hover {
+    background-color: #005177;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    .als-error-page .als-error-container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .als-error-page h1 {
+        font-size: 20px;
+    }
+
+    .als-error-page p {
+        font-size: 14px;
+    }
+
+    .als-error-page .als-error-button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
